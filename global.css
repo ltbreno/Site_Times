@@ -1,0 +1,37 @@
+:root {
+    --cor-primaria: #0D0D0D;
+    --cor-secundaria: #262626;
+    --cor-terciaria: #595959;
+    --cor-hover: #8C8C8C;
+    --cor-branca: #F2F2F2;
+
+    --fonte-principal:'Krona One', sans-serif;
+    --fonte-secundaria:'Montserrat', sans-serif;
+}
+body {
+    height: 100vh;
+    background-color: var(--cor-hover);
+}
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+.cabecalho-menu{
+    display: flex;
+    gap:100px;
+    font-size: 1.5rem ;
+}
+.cabecalho-menu-link {
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    color: var(--cor-primaria);
+}
+.apresentacao {
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    color: var(-- --cor-primaria)
+}
+/* margin: auto; centraliza a imagem */
+.apresentacao-imagem { 
+    display: flex;
+    margin: auto;
+}
